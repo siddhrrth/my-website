@@ -112,14 +112,12 @@ nav ul a {
   font-size: 11px;
   color: #a8c5a0;
   letter-spacing: 0.15em;
-  text-transform: uppercase;
   margin-bottom: 16px;
 }
 
 #home h1 {
   font-size: 72px;
   line-height: 1;
-  letter-spacing: -0.03em;
   color: #fff;
   margin-bottom: 18px;
 }
@@ -131,7 +129,6 @@ nav ul a {
 }
 
 .btn {
-  display: inline-block;
   background: #e8e6e1;
   color: #0d0d0f;
   font-family: 'DM Mono', monospace;
@@ -152,10 +149,6 @@ nav ul a {
   margin-bottom: 20px;
 }
 
-#about p {
-  margin-bottom: 12px;
-}
-
 .status {
   color: #a8c5a0;
   font-family: 'DM Mono', monospace;
@@ -171,7 +164,6 @@ nav ul a {
 
 .skill-row {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 14px;
 }
 
@@ -186,10 +178,6 @@ nav ul a {
 .skill-box:hover {
   border-color: #a8c5a0;
   transform: translateY(-5px);
-}
-
-.skill-box p {
-  font-size: 14px;
 }
 
 .skill-title {
@@ -236,41 +224,8 @@ nav ul a {
   border-radius: 8px;
 }
 
-.num {
-  font-family: 'DM Mono', monospace;
-  font-size: 11px;
-  color: #3e3e48;
-}
-
-.project-card h3 {
-  font-size: 19px;
-  color: #fff;
-  line-height: 1.2;
-}
-
-.project-card p {
-  font-size: 13px;
-}
-
-.tech {
-  font-family: 'DM Mono', monospace;
-  font-size: 11px;
-  color: #a8c5a0;
-}
-
 #contact h2 {
   font-size: 38px;
-  margin-bottom: 16px;
-}
-
-#contact {
-  margin-bottom: 28px;
-}
-
-.contact-links {
-  display: flex;
-  gap: 14px;
-  flex-wrap: wrap;
 }
 
 .contact-links a {
@@ -290,7 +245,6 @@ nav ul a {
   border-color: #a8c5a0;
   transform: translateY(-3px);
 }
-
 
 footer {
   text-align: center;
